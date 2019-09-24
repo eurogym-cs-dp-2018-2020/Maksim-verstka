@@ -28,3 +28,9 @@ header a{
         color: #ff3333;
     }  
 }
+h2{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: solid rgb(28,76,185) 2px;
+    border-bottom: solid rgb(28,76,185) 2px;
+}
