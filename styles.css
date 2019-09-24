@@ -8,6 +8,7 @@ header{
     background: #1C4CB9;
 }
 *{
+    transition-duration: 0.2s;
     font-family: woff;
 }
 footer{
@@ -18,6 +19,12 @@ body{
     background: #EDEDED;
 }
 header a{
+    font-size: 14px;
     text-decoration: none;
-    color: #000;
+    color: rgb(36,31,33);
+}
+@media (hover: hover){
+    header a:hover{
+        color: #ff3333;
+    }  
 }
