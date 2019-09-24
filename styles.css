@@ -12,6 +12,7 @@ header{
     font-family: woff;
 }
 footer{
+    color: #fff;
     background: #262626;
     height: 480px;
 }
@@ -28,9 +29,16 @@ header a{
         color: #ff3333;
     }  
 }
+h1{
+    font-size: 48px;
+}
 h2{
     padding-top: 12px;
     padding-bottom: 12px;
     border-top: solid rgb(28,76,185) 2px;
     border-bottom: solid rgb(28,76,185) 2px;
+}
+footer h2{
+    border-top: none;
+    border-color: #fff;
 }
