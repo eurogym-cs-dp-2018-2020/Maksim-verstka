@@ -1,6 +1,14 @@
+@font-face {
+	font-family: woff;
+	font-display: swap;
+	src: url('woff.ttf');
+}
 header{
     height: 144px;
     background: #1C4CB9;
+}
+*{
+    font-family: woff;
 }
 footer{
     background: #262626;
@@ -8,4 +16,8 @@ footer{
 }
 body{
     background: #EDEDED;
+}
+header a{
+    text-decoration: none;
+    color: #000;
 }
