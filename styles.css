@@ -10,7 +10,7 @@ header{
 *{
     transition-duration: 0.2s;
     font-family: arial;
-    font-weight: light;
+    font-weight: 100;
 }
 footer{
     color: #fff;
@@ -18,9 +18,11 @@ footer{
     height: 480px;
 }
 body{
+    margin: 0;
     background: #EDEDED;
 }
 header nav a{
+    margin-left: 15px;
     font-size: 20px;
     text-decoration: none;
     color: rgb(36,31,33);
@@ -30,6 +32,9 @@ header nav a{
         color: #ff3333;
     }  
 }
+header img{
+    float: right;
+}
 nav a{
     text-decoration: none;
     color: rgb(36,31,33);
@@ -37,15 +42,15 @@ nav a{
 }
 #teamMenu{
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1020px;
+    justify-content: space-evenly;
+    max-width: 1180px;
     margin: auto;
     display: flex;
 }
 #teamMenu a{
     padding: 20px;
-    width: 200px;
-    height: 80px;
+    width: 240px;
+    height: 100px;
 }
 #teamMenu a:nth-of-type(1) {
     background: #ff3333;
