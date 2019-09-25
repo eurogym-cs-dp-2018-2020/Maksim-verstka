@@ -19,8 +19,8 @@ footer{
 body{
     background: #EDEDED;
 }
-header a{
-    font-size: 14px;
+header nav a{
+    font-size: 20px;
     text-decoration: none;
     color: rgb(36,31,33);
 }
@@ -28,6 +28,23 @@ header a{
     header a:hover{
         color: #ff3333;
     }  
+}
+nav a{
+    text-decoration: none;
+    color: rgb(36,31,33);
+    font-size: 24px;
+}
+#teamMenu{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1020px;
+    margin: auto;
+    display: flex;
+}
+#teamMenu a{
+    outline: 1px solid #f1f; 
+    width: 240px;
+    height: 120px;
 }
 h1{
     font-size: 48px;
