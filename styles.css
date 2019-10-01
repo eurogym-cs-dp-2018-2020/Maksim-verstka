@@ -15,7 +15,9 @@
     margin-right: auto;
     max-width: 1200px;
   }
-  
+  .currentA{
+    color: #ff3333;
+  }
   * {
     transition-duration: 0.2s;
     font-family: arial;
