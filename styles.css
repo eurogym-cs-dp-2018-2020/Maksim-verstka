@@ -18,6 +18,17 @@
   .currentA{
     color: #ff3333;
   }
+  ul li{
+    list-style: none;
+  }
+  li img{
+    width: 250px;
+    height: 250px;
+  }
+  li p{
+    color: rgb(28, 76, 185);
+    font-size: 14px;
+  }
   * {
     transition-duration: 0.2s;
     font-family: arial;
@@ -90,6 +101,7 @@
   }
   
   h2 {
+    margin-bottom: 50px;
     color: rgb(28, 76, 185);
     padding-left: 30px;
     padding-top: 12px;
