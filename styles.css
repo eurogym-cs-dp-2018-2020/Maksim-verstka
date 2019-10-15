@@ -45,11 +45,12 @@
     margin-top: 20px;
   }
   footer {
-    color: #fff;
     background: #262626;
     height: 480px;
   }
-  
+  footer nav a{
+    color: #fff;
+  }
   body {
     margin: 0;
     background: #ededed;
