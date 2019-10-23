@@ -13,7 +13,8 @@
   .container {
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     max-width: 1200px;
   }
   .currentA{
@@ -116,10 +117,55 @@
     border-bottom: solid rgb(28, 76, 185) 2px;
   }
   
-  footer h2 {
-    border-top: none;
-    border-color: #fff;
-  }
+  footer {
+    background-color: #262626;
+    color: white;
+}
+
+footer > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer a[href] {
+    color: white;
+}
+
+footer h2 {
+    border-bottom: 1px solid white;
+    padding: .1em 6%;
+    margin-top: 0;
+    font-size: 250%;
+}
+
+footer section {
+    width: 50%;
+}
+
+footer section:first-of-type > div {
+    display: flex;
+}
+
+footer section:first-of-type > div > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer section:last-of-type > div {
+    display: flex;
+}
+
+footer section:last-of-type > div div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer section:last-of-type > div div a {
+    padding: 7px 0;
+}
   
   .row {
     display: flex;
