@@ -116,6 +116,7 @@ h2 {
 footer {
   background: #262626;
   color: white;
+  padding-bottom: 0.5em;
 }
 footer a {
   color: #fff;
