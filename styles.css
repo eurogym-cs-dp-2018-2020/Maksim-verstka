@@ -122,6 +122,8 @@ footer {
 }
 footer a {
   color: #fff;
+  margin-bottom: 0.4em;
+  display: block;
 }
 footer h2{
   border-color: #fff;
